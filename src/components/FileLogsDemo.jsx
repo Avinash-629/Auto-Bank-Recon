@@ -76,11 +76,6 @@ export default function FileLogsDemo() {
             <button className="yardi-btn" style={{ minWidth: '85px' }}>Help</button>
           </div>
 
-          {/* Metadata Footer */}
-          <div style={{ marginTop: '20px', fontSize: '11px', color: '#333333' }}>
-            File or Code: rs_sql_fnx_BAI2FilesLog.txt<br />
-            Version: 01.21.2019 by <span style={{ color: '#0066cc', textDecoration: 'underline', cursor: 'pointer' }}>Fenix Consulting</span>
-          </div>
 
         </div>
 

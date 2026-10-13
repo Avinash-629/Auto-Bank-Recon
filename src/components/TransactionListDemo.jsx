@@ -136,11 +136,6 @@ export default function TransactionListDemo() {
             <button className="yardi-btn" style={{ minWidth: '85px' }}>Help</button>
           </div>
 
-          {/* Metadata Footer */}
-          <div style={{ marginTop: '20px', fontSize: '11px', color: '#333333' }}>
-            File or Code: rs_sql_cc_ShowBAI2Txns.txt<br />
-            Version: 11/14/2025
-          </div>
 
         </div>
 
