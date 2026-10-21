@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { bankAccountsData } from '../data/mockData';
 
 export default function LauncherDemo() {
-  const [propertyCode, setPropertyCode] = useState("fivf3lp");
+  const [propertyCode, setPropertyCode] = useState("demo001");
   const [cutoffDate, setCutoffDate] = useState("09/30/2026");
   const [reportName, setReportName] = useState("Bank Reconciliation Launcher (brecs)");
   const [outputType, setOutputType] = useState("Screen");
@@ -16,10 +16,10 @@ export default function LauncherDemo() {
   const [showOnPortal, setShowOnPortal] = useState(false);
 
   const [accounts, setAccounts] = useState([
-    { bank: 'f3cit', accountName: 'Citizens Fund III', acctNum: '24969664', bankName: '', gl: '11001250', currency: '', glDesc: 'Cash - Money Market', balance: 421647.61 },
-    { bank: 'f3jpmzba', accountName: 'JPM ZBA - Fund III', acctNum: '851380599', bankName: '', gl: '11001850', currency: '', glDesc: 'Cash - Fund Level JPM', balance: 309873.53 },
-    { bank: 'f3keyzba', accountName: 'KeyBank ZBA Fund III', acctNum: '359681705372', bankName: '', gl: '11001860', currency: '', glDesc: 'Cash - KeyBank ZBA', balance: 609435.31 },
-    { bank: 'fivf3lp', accountName: 'Faropoint Indus Value Fund III', acctNum: '359681663720', bankName: 'KeyBank NA', gl: '11001350', currency: '', glDesc: 'Cash - Fund/Feeder Level Operating (Equity Account)', balance: 703812.88 },
+    { bank: 'demo_mm', accountName: 'Demo Money Market Account', acctNum: '100098760004', bankName: '', gl: '11001250', currency: '', glDesc: 'Cash - Money Market', balance: 421647.61 },
+    { bank: 'demo_op', accountName: 'Demo Operating Account', acctNum: '100098760003', bankName: '', gl: '11001850', currency: '', glDesc: 'Cash - Operating Account', balance: 309873.53 },
+    { bank: 'demo_zba', accountName: 'Example Bank ZBA Account', acctNum: '100098760002', bankName: '', gl: '11001860', currency: '', glDesc: 'Cash - Example Bank ZBA', balance: 609435.31 },
+    { bank: 'demo001', accountName: 'Sample Investment Fund I', acctNum: '100098760001', bankName: 'Example Bank', gl: '11001350', currency: '', glDesc: 'Cash - Fund/Feeder Level Operating (Equity Account)', balance: 703812.88 },
   ]);
 
   return (

@@ -62,28 +62,48 @@ export default function App() {
           background: 'var(--yardi-panel-bg, #ffffff)',
           borderRadius: '4px',
           display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
+          flexDirection: 'column',
+          gap: '10px',
           fontSize: '11px',
           color: '#555555',
-          flexWrap: 'wrap',
-          gap: '16px',
           boxShadow: '0 1px 3px rgba(0,0,0,0.05)'
         }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{
-              background: '#ffffff',
-              padding: '3px 8px',
-              borderRadius: '4px',
-              border: '1px solid #d0d0d0',
-              display: 'flex',
-              alignItems: 'center'
-            }}>
-              <img src="/logiprime-logo.png" alt="LogiPrime Solutions" style={{ height: '24px', width: 'auto' }} />
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '12px'
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <div style={{
+                background: '#ffffff',
+                padding: '3px 8px',
+                borderRadius: '4px',
+                border: '1px solid #d0d0d0',
+                display: 'flex',
+                alignItems: 'center'
+              }}>
+                <img src="/logiprime-logo.png" alt="LogiPrime Solutions" style={{ height: '24px', width: 'auto' }} />
+              </div>
+              <div>
+                <strong>LogiPrime AutoRec for Yardi Voyager®</strong> &bull; Automated Bank Reconciliation by LogiPrime Solutions
+              </div>
             </div>
-            <div>
-              <strong>LogiPrime AutoRec for Yardi Voyager®</strong> &copy; 2026 | Automated Bank Reconciliation by LogiPrime Solutions
+
+            <div style={{ color: '#444444', fontWeight: '500' }}>
+              &copy; 2026 LogiPrime Solutions FZCO. All rights reserved.
             </div>
+          </div>
+
+          <div style={{
+            borderTop: '1px solid rgba(0,0,0,0.08)',
+            paddingTop: '8px',
+            fontSize: '10px',
+            color: '#777777',
+            lineHeight: 1.5
+          }}>
+            Yardi® and Yardi Voyager® are trademarks or registered trademarks of Yardi Systems, Inc. LogiPrime Solutions is an independent company and is not affiliated with, endorsed by, or sponsored by Yardi Systems, Inc.
           </div>
         </footer>
 

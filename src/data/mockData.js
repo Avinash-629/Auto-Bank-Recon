@@ -58,7 +58,7 @@ export const supportedBankList = [
   "Northern Trust",
   "Santander",
   "BNY Melon",
-  "Key Bank",
+  "Example Bank",
   "Citi Bank",
   "CAIXIA",
   "UMB Bank",
@@ -69,55 +69,55 @@ export const supportedBankList = [
 
 export const bankAccountsData = [
   {
-    code: "JPMC-OP",
-    accountName: "JPMorgan Operating",
+    code: "DEMO-OP",
+    accountName: "Demo Operating Account",
     acctNumber: "XXXX-4821",
     currency: "USD",
     glAccount: "1010-00",
     glDescription: "Cash - Primary Operating",
     bankBalance: 1245680.50,
     status: "Reconciled",
-    property: "PRP-1004 - Metro Plaza Commercial Portfolio"
+    property: "demo001 - Sample Investment Fund I"
   },
   {
-    code: "WF-MM",
-    accountName: "Wells Fargo Money Market",
+    code: "DEMO-MM",
+    accountName: "Demo Money Market Account",
     acctNumber: "XXXX-7712",
     currency: "USD",
     glAccount: "1020-00",
     glDescription: "Cash - Treasury Money Market",
     bankBalance: 850310.25,
     status: "Reconciled",
-    property: "PRP-1004 - Metro Plaza Commercial Portfolio"
+    property: "demo001 - Sample Investment Fund I"
   },
   {
-    code: "KEY-ZBA",
-    accountName: "Key Bank Payroll ZBA Account",
+    code: "EXB-ZBA",
+    accountName: "Example Bank ZBA Account",
     acctNumber: "XXXX-3309",
     currency: "USD",
     glAccount: "1030-00",
-    glDescription: "Cash - Payroll ZBA Account",
+    glDescription: "Cash - Example Bank ZBA",
     bankBalance: 412090.00,
     status: "Reconciled",
-    property: "PRP-1004 - Metro Plaza Commercial Portfolio"
+    property: "demo001 - Sample Investment Fund I"
   },
   {
-    code: "CITI-LBX",
-    accountName: "Citizens Bank Commercial Lockbox",
+    code: "DEMO-LBX",
+    accountName: "Sample Investment Fund I Lockbox",
     acctNumber: "XXXX-6621",
     currency: "USD",
     glAccount: "1040-00",
     glDescription: "Cash - Tenant Lockbox Operating",
     bankBalance: 920450.75,
     status: "Reconciled",
-    property: "PRP-1004 - Metro Plaza Commercial Portfolio"
+    property: "demo001 - Sample Investment Fund I"
   }
 ];
 
 export const matchingRateReport = {
   dateFrom: "09/01/2026",
   dateTo: "09/30/2026",
-  property: "PRP-1004 - Metro Plaza Commercial Portfolio",
+  property: "demo001 - Sample Investment Fund I",
   overallRate: 91.45,
   totalMatched: 514,
   totalUnmatched: 48,
@@ -140,8 +140,8 @@ export const matchingRateReport = {
 export const transactionsData = [
   {
     id: "TXN-2004101",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/01/2026",
     flowCode: 145,
     type: "ACH Tenant Rent Collection",
@@ -154,8 +154,8 @@ export const transactionsData = [
   },
   {
     id: "TXN-2004102",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/01/2026",
     flowCode: 501,
     type: "Automatic Sweep Debit",
@@ -164,12 +164,12 @@ export const transactionsData = [
     bankRef: "SWP20260901-002",
     custRef: "SWEEP-OP-01",
     cleared: true,
-    remarks: "AUTOMATIC ZBA SWEEP TO CONCENTRATION ACCOUNT #4821"
+    remarks: "AUTOMATIC ZBA SWEEP TO CONCENTRATION ACCOUNT #XXXX"
   },
   {
     id: "TXN-2004103",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/02/2026",
     flowCode: 145,
     type: "ACH Tenant Rent Collection",
@@ -182,8 +182,8 @@ export const transactionsData = [
   },
   {
     id: "TXN-2004104",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/03/2026",
     flowCode: 145,
     type: "ACH Maintenance Fee",
@@ -196,8 +196,8 @@ export const transactionsData = [
   },
   {
     id: "TXN-2004105",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/03/2026",
     flowCode: 145,
     type: "ACH Unidentified Credit",
@@ -210,8 +210,8 @@ export const transactionsData = [
   },
   {
     id: "TXN-2004106",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/04/2026",
     flowCode: 455,
     type: "Vendor ACH Payment",
@@ -224,8 +224,8 @@ export const transactionsData = [
   },
   {
     id: "TXN-2004107",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/05/2026",
     flowCode: 145,
     type: "ACH Tenant Rent Collection",
@@ -238,8 +238,8 @@ export const transactionsData = [
   },
   {
     id: "TXN-2004108",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/05/2026",
     flowCode: 501,
     type: "Automatic Sweep Debit",
@@ -248,12 +248,12 @@ export const transactionsData = [
     bankRef: "SWP20260905-045",
     custRef: "SWEEP-OP-01",
     cleared: true,
-    remarks: "AUTOMATIC ZBA SWEEP TO CONCENTRATION ACCOUNT #4821"
+    remarks: "AUTOMATIC ZBA SWEEP TO CONCENTRATION ACCOUNT #XXXX"
   },
   {
     id: "TXN-2004109",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/08/2026",
     flowCode: 145,
     type: "ACH Security Deposit",
@@ -266,8 +266,8 @@ export const transactionsData = [
   },
   {
     id: "TXN-2004110",
-    bankCode: "CITI-LBX",
-    bankAcctName: "Citizens Bank Commercial Lockbox",
+    bankCode: "DEMO-LBX",
+    bankAcctName: "Sample Investment Fund I Lockbox",
     date: "09/09/2026",
     flowCode: 698,
     type: "Bank Service Charge",
@@ -289,7 +289,7 @@ export const fileLogsData = [
   { id: "LOG-0901-06", bank: "Northern Trust", fileName: "SFTP_NTRUST_BANKFEED_20260901.TRU", records: 112, date: "09/01/2026 10:30 AM", status: "Success", errorCount: 0 },
   { id: "LOG-0901-07", bank: "Santander", fileName: "SFTP_SAN_BANKFEED_20260901.TRU", records: 88, date: "09/01/2026 11:00 AM", status: "Success", errorCount: 0 },
   { id: "LOG-0901-08", bank: "BNY Melon", fileName: "SFTP_BNY_BANKFEED_20260901.TRU", records: 156, date: "09/01/2026 11:30 AM", status: "Success", errorCount: 0 },
-  { id: "LOG-0902-01", bank: "Key Bank", fileName: "SFTP_KEY_BANKFEED_20260902.TRU", records: 88, date: "09/02/2026 08:00 AM", status: "Success", errorCount: 0 },
+  { id: "LOG-0902-01", bank: "Example Bank", fileName: "SFTP_EXB_BANKFEED_20260902.TRU", records: 88, date: "09/02/2026 08:00 AM", status: "Success", errorCount: 0 },
   { id: "LOG-0902-02", bank: "Citi Bank", fileName: "SFTP_CITI_BANKFEED_20260902.TRU", records: 210, date: "09/02/2026 08:30 AM", status: "Success", errorCount: 0 },
   { id: "LOG-0902-03", bank: "CAIXIA", fileName: "SFTP_CAIXIA_BANKFEED_20260902.TRU", records: 74, date: "09/02/2026 09:00 AM", status: "Success", errorCount: 0 },
   { id: "LOG-0902-04", bank: "UMB Bank", fileName: "SFTP_UMB_BANKFEED_20260902.TRU", records: 103, date: "09/02/2026 09:30 AM", status: "Success", errorCount: 0 },

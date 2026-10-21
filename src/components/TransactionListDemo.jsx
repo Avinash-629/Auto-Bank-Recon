@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { transactionsData } from '../data/mockData';
 
 export default function TransactionListDemo() {
-  const [bankCodeInput, setBankCodeInput] = useState("f2co8727");
+  const [bankCodeInput, setBankCodeInput] = useState("demo001");
   const [bankNameLabel, setBankNameLabel] = useState("");
   const [propertyInput, setPropertyInput] = useState("");
   const [dateFrom, setDateFrom] = useState("09/01/2026");

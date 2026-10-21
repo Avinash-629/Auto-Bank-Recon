@@ -3,7 +3,7 @@ import { matchingRateReport } from '../data/mockData';
 
 export default function MatchingRateDemo() {
   const [bankInput, setBankInput] = useState("");
-  const [propertyInput, setPropertyInput] = useState("fivf3lp");
+  const [propertyInput, setPropertyInput] = useState("demo001");
   const [dateFrom, setDateFrom] = useState(matchingRateReport.dateFrom);
   const [dateTo, setDateTo] = useState(matchingRateReport.dateTo);
   const [reportName, setReportName] = useState("Bank Reconciliation Matching Rate Report (brecs)");
