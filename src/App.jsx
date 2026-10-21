@@ -82,11 +82,8 @@ export default function App() {
               <img src="/logiprime-logo.png" alt="LogiPrime Solutions" style={{ height: '24px', width: 'auto' }} />
             </div>
             <div>
-              <strong>LogiPrime Solutions</strong> &copy; 2026 | Yardi Voyager® Automated Bank Reconciliation
+              <strong>LogiPrime AutoRec for Yardi Voyager®</strong> &copy; 2026 | Automated Bank Reconciliation by LogiPrime Solutions
             </div>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '16px', color: '#666666' }}>
-            <span>Native Yardi Voyager® Integration</span>
           </div>
         </footer>
 

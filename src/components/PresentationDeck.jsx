@@ -9,22 +9,81 @@ export default function PresentationDeck({ onNavigateToDemo }) {
       id: "overview",
       tag: "FINANCE LEADERSHIP BRIEFING",
       title: "Yardi Automated Bank Reconciliation Solution",
-      subtitle: "Transforming accounting team productivity with daily automated clearing and a 100% one-time investment model.",
+      subtitle: (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
+          <div style={{ fontSize: '13px', fontWeight: 'bold', color: '#004b87' }}>
+            Automated Bank Reconciliation by LogiPrime Solutions
+          </div>
+          <div style={{ fontSize: '12px', color: '#444444' }}>
+            Transforming accounting team productivity with daily automated clearing and a 100% one-time investment model.
+          </div>
+        </div>
+      ),
       content: (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '16px' }}>
 
-          {/* Highlight Banner */}
+          {/* FEATURE CLAIM HERO BANNER */}
           <div style={{
-            background: '#eef6fc',
-            border: '1px solid #7f9db9',
-            padding: '12px 16px',
-            borderRadius: '2px'
+            background: 'linear-gradient(135deg, #0a2540 0%, #004b87 100%)',
+            color: '#ffffff',
+            padding: '16px 20px',
+            borderRadius: '4px',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            flexWrap: 'wrap',
+            gap: '16px'
           }}>
-            <div style={{ fontWeight: 'bold', color: '#004b87', fontSize: '13px', marginBottom: '2px' }}>
-              Financial Advantage: One-Time Development Investment — Zero Lifetime Subscription Costs
+            <div>
+              <div style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+                background: 'rgba(255, 255, 255, 0.18)',
+                color: '#64ffda',
+                padding: '3px 8px',
+                borderRadius: '3px',
+                fontSize: '10px',
+                fontWeight: 'bold',
+                letterSpacing: '0.8px',
+                textTransform: 'uppercase',
+                marginBottom: '6px'
+              }}>
+                ★ FEATURE CLAIM
+              </div>
+              <div style={{ fontWeight: 'bold', fontSize: '20px', color: '#ffffff', marginBottom: '4px' }}>
+                100% Yardi Voyager Native
+              </div>
+              <div style={{ fontSize: '13px', color: '#e2e8f0', fontWeight: '500' }}>
+                Designed to work within your Yardi Voyager environment
+              </div>
+              <div style={{ fontSize: '11px', color: '#cbd5e1', marginTop: '4px' }}>
+                Pay once, own forever — zero third-party software, zero separate servers, and zero recurring per-user SaaS license fees.
+              </div>
             </div>
-            <div style={{ fontSize: '11px', color: '#333' }}>
-              Unlike costly SaaS tools charging recurring per-seat fees, this solution is built natively inside your Yardi Voyager instance. Pay once, own forever.
+
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-end',
+              gap: '6px'
+            }}>
+              <div style={{
+                background: 'rgba(100, 255, 218, 0.15)',
+                border: '1px solid #64ffda',
+                color: '#64ffda',
+                padding: '6px 14px',
+                borderRadius: '4px',
+                fontSize: '11px',
+                fontWeight: 'bold',
+                textAlign: 'center'
+              }}>
+                ✔ Fully Embedded in Voyager
+              </div>
+              <div style={{ fontSize: '10px', color: '#94a3b8' }}>
+                LogiPrime AutoRec for Yardi Voyager®
+              </div>
             </div>
           </div>
 
@@ -65,7 +124,8 @@ export default function PresentationDeck({ onNavigateToDemo }) {
 
                 <div style={{ background: '#f5f7fa', padding: '10px', border: '1px solid #d0d0d0', textAlign: 'center' }}>
                   <div style={{ fontSize: '20px', fontWeight: 'bold', color: '#0055aa' }}>100%</div>
-                  <div style={{ fontSize: '10px', color: '#555', textTransform: 'uppercase', marginTop: '2px' }}>Yardi Voyager Native</div>
+                  <div style={{ fontSize: '10px', fontWeight: 'bold', color: '#004b87', textTransform: 'uppercase', marginTop: '2px' }}>100% Yardi Voyager Native</div>
+                  <div style={{ fontSize: '9px', color: '#666', marginTop: '2px' }}>Designed to work within your Yardi Voyager environment</div>
                 </div>
               </div>
             </div>

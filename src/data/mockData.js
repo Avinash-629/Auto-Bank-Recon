@@ -1,9 +1,17 @@
 export const solutionOverview = {
-  title: "Yardi Automated Bank Reconciliation",
-  subtitle: "Finance Team Productivity & One-Time Investment Solution",
+  productName: "LogiPrime AutoRec for Yardi Voyager®",
+  systemName: "Yardi Auto Bank Reconciliation",
+  heroHeading: "Yardi Automated Bank Reconciliation Solution",
+  heroSubheading: "Automated Bank Reconciliation by LogiPrime Solutions",
+  title: "Yardi Automated Bank Reconciliation Solution",
+  subtitle: "Automated Bank Reconciliation by LogiPrime Solutions",
+  featureClaim: {
+    title: "100% Yardi Voyager Native",
+    description: "Designed to work within your Yardi Voyager environment"
+  },
   version: "Enterprise Production Grade",
-  vendor: "Yardi Integration Partner",
-  description: "Designed for Finance Leadership & Accounting Teams to automate daily bank reconciliation directly inside Yardi Voyager. Replaces manual line-by-line statement matching with automated rules, saving an estimated 15 to 120+ accounting hours monthly depending on bank count, active accounts, and transaction volume.",
+  vendor: "LogiPrime Solutions",
+  description: "LogiPrime AutoRec for Yardi Voyager® is a 100% native automated bank reconciliation solution designed to work within your Yardi Voyager environment. Replaces manual line-by-line statement matching with automated rules, saving an estimated 15 to 120+ accounting hours monthly depending on bank count, active accounts, and transaction volume.",
   keyMetrics: {
     monthlyHoursSaved: "~15–120+ Hours/Mo",
     monthlyHoursNote: "Varies by banks, accounts & volume",
@@ -20,8 +28,8 @@ export const solutionOverview = {
 
 export const keyAdvantages = [
   {
-    title: "100% Executed in Yardi (No Extra Machine)",
-    desc: "Everything runs natively inside Yardi Voyager. No additional machines, servers, or third-party software required."
+    title: "100% Yardi Voyager Native",
+    desc: "Designed to work within your Yardi Voyager environment. Everything runs natively inside Yardi Voyager — no additional machines, servers, or third-party software required."
   },
   {
     title: "One-Time Payment (Zero Recurring Fees)",
