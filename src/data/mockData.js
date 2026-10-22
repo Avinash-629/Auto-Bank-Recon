@@ -1,9 +1,9 @@
 export const solutionOverview = {
-  productName: "LogiPrime AutoRec for Yardi Voyager®",
+  productName: "LogiPrime Auto Bank Reconciliation for Yardi Voyager®",
   systemName: "Yardi Auto Bank Reconciliation",
-  heroHeading: "Yardi Automated Bank Reconciliation Solution",
+  heroHeading: "Automated Bank Reconciliation Solution",
   heroSubheading: "Automated Bank Reconciliation by LogiPrime Solutions",
-  title: "Yardi Automated Bank Reconciliation Solution",
+  title: "Automated Bank Reconciliation Solution",
   subtitle: "Automated Bank Reconciliation by LogiPrime Solutions",
   featureClaim: {
     title: "100% Yardi Voyager Native",
@@ -11,7 +11,7 @@ export const solutionOverview = {
   },
   version: "Enterprise Production Grade",
   vendor: "LogiPrime Solutions",
-  description: "LogiPrime AutoRec for Yardi Voyager® is a 100% native automated bank reconciliation solution designed to work within your Yardi Voyager environment. Replaces manual line-by-line statement matching with automated rules, saving an estimated 15 to 120+ accounting hours monthly depending on bank count, active accounts, and transaction volume.",
+  description: "LogiPrime Auto Bank Reconciliation for Yardi Voyager® is a 100% native automated bank reconciliation solution designed to work within your Yardi Voyager environment. Replaces manual line-by-line statement matching with automated rules, saving an estimated 15 to 120+ accounting hours monthly depending on bank count, active accounts, and transaction volume.",
   keyMetrics: {
     monthlyHoursSaved: "~15–120+ Hours/Mo",
     monthlyHoursNote: "Varies by banks, accounts & volume",

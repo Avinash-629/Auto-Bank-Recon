@@ -23,14 +23,9 @@ export default function Header({ activeTab, setActiveTab, darkMode, setDarkMode 
             />
           </div>
           <div className="yardi-logo-text">
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <span style={{ fontSize: '15px', fontWeight: 'bold', color: '#ffffff', letterSpacing: '-0.2px' }}>
-                LogiPrime AutoRec <span style={{ fontSize: '12px', fontWeight: 'normal', color: '#d0e2f5' }}>for Yardi Voyager®</span>
-              </span>
-              <span style={{ fontSize: '10px', color: '#64ffda', letterSpacing: '0.4px', fontWeight: 600 }}>
-                YARDI AUTO BANK RECONCILIATION
-              </span>
-            </div>
+            <span style={{ fontSize: '15px', fontWeight: 'bold', color: '#ffffff', letterSpacing: '-0.2px' }}>
+              LogiPrime Auto Bank Reconciliation <span style={{ fontSize: '12px', fontWeight: 'normal', color: '#d0e2f5' }}>for Yardi Voyager®</span>
+            </span>
           </div>
         </div>
 

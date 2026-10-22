@@ -8,7 +8,7 @@ export default function PresentationDeck({ onNavigateToDemo }) {
     {
       id: "overview",
       tag: "FINANCE LEADERSHIP BRIEFING",
-      title: "Yardi Automated Bank Reconciliation Solution",
+      title: "Automated Bank Reconciliation Solution",
       subtitle: (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
           <div style={{ fontSize: '13px', fontWeight: 'bold', color: '#004b87' }}>
@@ -63,12 +63,7 @@ export default function PresentationDeck({ onNavigateToDemo }) {
               </div>
             </div>
 
-            <div style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flex-end',
-              gap: '6px'
-            }}>
+            <div>
               <div style={{
                 background: 'rgba(100, 255, 218, 0.15)',
                 border: '1px solid #64ffda',
@@ -80,9 +75,6 @@ export default function PresentationDeck({ onNavigateToDemo }) {
                 textAlign: 'center'
               }}>
                 ✔ Fully Embedded in Voyager
-              </div>
-              <div style={{ fontSize: '10px', color: '#94a3b8' }}>
-                LogiPrime AutoRec for Yardi Voyager®
               </div>
             </div>
           </div>

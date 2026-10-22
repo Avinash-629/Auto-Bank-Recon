@@ -68,32 +68,8 @@ export default function App() {
           color: '#555555',
           boxShadow: '0 1px 3px rgba(0,0,0,0.05)'
         }}>
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            flexWrap: 'wrap',
-            gap: '12px'
-          }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <div style={{
-                background: '#ffffff',
-                padding: '3px 8px',
-                borderRadius: '4px',
-                border: '1px solid #d0d0d0',
-                display: 'flex',
-                alignItems: 'center'
-              }}>
-                <img src="/logiprime-logo.png" alt="LogiPrime Solutions" style={{ height: '24px', width: 'auto' }} />
-              </div>
-              <div>
-                <strong>LogiPrime AutoRec for Yardi Voyager®</strong> &bull; Automated Bank Reconciliation by LogiPrime Solutions
-              </div>
-            </div>
-
-            <div style={{ color: '#444444', fontWeight: '500' }}>
-              &copy; 2026 LogiPrime Solutions FZCO. All rights reserved.
-            </div>
+          <div style={{ display: 'flex', justifyContent: 'flex-end', textAlign: 'right', color: '#444444', fontWeight: '500' }}>
+            &copy; 2026 LogiPrime Solutions FZCO. All rights reserved.
           </div>
 
           <div style={{
@@ -103,7 +79,7 @@ export default function App() {
             color: '#777777',
             lineHeight: 1.5
           }}>
-            Yardi® and Yardi Voyager® are trademarks or registered trademarks of Yardi Systems, Inc. LogiPrime Solutions is an independent company and is not affiliated with, endorsed by, or sponsored by Yardi Systems, Inc.
+            Yardi® and Yardi Voyager® are trademarks or registered trademarks of Yardi Systems, Inc. LogiPrime Solutions is an independent company.
           </div>
         </footer>
 
